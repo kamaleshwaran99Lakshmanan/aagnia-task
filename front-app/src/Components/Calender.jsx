@@ -75,7 +75,7 @@ export const Calendar = () => {
                 style={{
                   backgroundColor: day === currentDate.getDate() ? 'black' : 'white', // Highlight today's date
                   color: day === currentDate.getDate() ? 'white' : 'black', // Text color for today's date
-                  width: '200px', // Width of each day card
+                  width: '210px', // Width of each day card
                   height: '70px', // Height of each day card
                   padding: '10px', // Padding inside the card
                   borderRadius: '8px', // Rounded corners for the card
