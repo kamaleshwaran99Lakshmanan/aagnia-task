@@ -108,11 +108,13 @@ p{
 .day {
   padding: 10px;
   border-radius: 4px;
-  min-width: 50px; 
+  min-width: 60px; 
   text-align: center;
-  border:1px solid black;
+  border: 1px solid black;
   margin: 1px;
+  white-space: nowrap; 
 }
+
 
 .day-name{
   font-size: smaller;
